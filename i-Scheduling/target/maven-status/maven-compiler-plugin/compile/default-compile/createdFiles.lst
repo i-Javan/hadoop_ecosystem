@@ -1,0 +1,9 @@
+com\dao\EntityDao.class
+com\entity\ExchangeRate.class
+com\task\LogTask.class
+com\entity\QueryResult.class
+com\entity\Dept.class
+com\Application.class
+com\http\HttpClient.class
+com\task\GoldTask.class
+com\entity\Gold.class
