@@ -56,6 +56,35 @@ public class ReduceJobsUtils {
         return configuration;
     }
 
+
+    /**
+     * 获取单词统计的配置信息
+     *
+     * @param jobName
+     * @return
+     */
+    public static void getPolluteCountJobsConf(String jobName, String inputPath, String outputPath) throws IOException, ClassNotFoundException, InterruptedException {
+        Configuration conf = getConfiguration();
+        Job job = Job.getInstance(conf, jobName);
+
+        job.setMapperClass(PolluteCountMap.class);
+        job.setCombinerClass(WordCountReduce.class);
+        job.setReducerClass(WordCountReduce.class);
+
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(IntWritable.class);
+
+        // 小文件合并设置
+        job.setInputFormatClass(CombineTextInputFormat.class);
+        // 最大分片
+        CombineTextInputFormat.setMaxInputSplitSize(job, 4 * 1024 * 1024);
+        // 最小分片
+        CombineTextInputFormat.setMinInputSplitSize(job, 2 * 1024 * 1024);
+
+        FileInputFormat.addInputPath(job, new Path(inputPath));
+        FileOutputFormat.setOutputPath(job, new Path(outputPath));
+        job.waitForCompletion(true);
+    }
     /**
      * 获取单词统计的配置信息
      *
