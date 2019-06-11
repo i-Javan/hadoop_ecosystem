@@ -1,26 +1,30 @@
 package com.task;
 
+import com.alibaba.fastjson.JSONObject;
 import com.dao.EntityDao;
+import com.entity.AirQualityFacts;
 import com.entity.ExchangeRate;
 import com.entity.Gold;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.http.HttpClient;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.GregorianCalendar;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * 汇率获取定时器
  */
+@Slf4j
 @Component
 public class LogTask {
     @Value("${zx.apikey.130.211}")
@@ -33,6 +37,8 @@ public class LogTask {
     private String hlkey1;
     @Value("${zx.apikey.158.224}")
     private String gpldhlkey;
+    @Value("${envicloud.apikey}")
+    private String envicloudKey;
 
     @Autowired
     private HttpClient httpClient;
@@ -42,11 +48,17 @@ public class LogTask {
     @Autowired
     private GoldTask goldTask;
 
+    // 环境数据的map
+    Map enviroMap = new HashMap();
+
+    Gson gson = new GsonBuilder().setDateFormat("yyyyMMddHH").create();
+
+    SimpleDateFormat   sDateFormat   =   new   SimpleDateFormat("yyyy-MM-dd HH");
 
     SimpleDateFormat formatterDate = new SimpleDateFormat("yyyy-MM-dd");
     SimpleDateFormat formatterTime = new SimpleDateFormat("HH:mm:ss");
 
-    private static final Logger logger = LoggerFactory.getLogger(LogTask.class);
+    //private static final Logger logger = LoggerFactory.getLogger(LogTask.class);
 
     private int count = 0;
 
@@ -79,10 +91,10 @@ public class LogTask {
             er.setMBuyPri(data.get("mBuyPri"));
             er.setMSellPri(data.get("mSellPri"));
             er.setName(data.get("name"));
-            logger.info("插入信息：" + er.toString());
+            log.info("插入信息：" + er.toString());
             entityDao.save(er);
         }
-        logger.info("定时器调用次数：" + (++count));
+        log.info("定时器调用次数：" + (++count));
     }
 
 
@@ -97,9 +109,9 @@ public class LogTask {
             pm.put("key", gpldhlkey);
             pm.put("fid", "1");
             goldTask.getRequest(Gold.class, pm);
-            logger.error("黄金获取定时器成功！");
+            log.error("黄金获取定时器成功！");
         } catch (Exception e) {
-            logger.error("黄金获取定时器出错：" + e);
+            log.error("黄金获取定时器出错：" + e);
         }
     }
     /**
@@ -118,4 +130,41 @@ public class LogTask {
 //            logger.error("汇率获取定时器出错："+e);
 //        }
 //    }
+    /*
+     * @Description 城市空气质量实况
+     * @Author LiangZF
+     * @param
+     * @Date 2019/6/6 14:32
+     * @return void
+     */
+    @Scheduled(fixedRate = 3600000) //一小时执行一次
+    private void airQualityFacts(){
+        long time1=System.currentTimeMillis();
+        // 遍历城市数据
+        StringBuffer sql = new StringBuffer("SELECT areaid FROM t_city");
+        List<Object> params = new ArrayList<>();
+        List<Map<String, Object>> scrollDataMap = entityDao.getScrollDataMap(sql.toString(), params.toArray());
+        for(Map<String, Object> areaMap : scrollDataMap){
+            Integer areaid =(Integer)areaMap.get("areaid");
+            if(!StringUtils.isEmpty(areaid)){
+                String urls = "http://service.envicloud.cn:8082/v2/cityairlive/"+envicloudKey+"/"+areaid;
+                JSONObject jsonObject = com.common.HttpClientUtils.httpGet(urls);
+                if(jsonObject == null){
+                    continue;
+                }
+                enviroMap = jsonObject;
+                String jsonObj = gson.toJson(enviroMap);
+                AirQualityFacts t = gson.fromJson(jsonObj, AirQualityFacts.class);
+                if("200".equals(t.getRcode())){
+                    entityDao.save(t);
+                    log.info("插入数据："+t.toString());
+                    count++;
+                }
+            }else{
+                log.info("城市id为空!");
+            }
+        }
+        long time2=System.currentTimeMillis();
+        log.info("城市数据插入完毕！"+sDateFormat.format(new  java.util.Date()) +"本时段一共插入"+count+"条数据,用时："+(time2-time1)+"ms");
+    }
 }

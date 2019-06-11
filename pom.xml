@@ -24,6 +24,7 @@
         <module>i-HBase</module>
         <module>i-Scheduling</module>
         <module>i-JPA</module>
+        <module>i-Spark</module>
     </modules>
 
     <developers>
