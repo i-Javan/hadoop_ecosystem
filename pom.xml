@@ -25,6 +25,7 @@
         <module>i-Scheduling</module>
         <module>i-JPA</module>
         <module>i-Spark</module>
+        <module>i-Timer</module>
     </modules>
 
     <developers>

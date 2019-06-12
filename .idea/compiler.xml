@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="i-Spark" />
-        <module name="i-HBase" />
-        <module name="i-HDFS" />
-        <module name="i-JPA" />
         <module name="i-Scheduling" />
+        <module name="i-JPA" />
+        <module name="i-Timer" />
+        <module name="i-HBase" />
+        <module name="i-Spark" />
+        <module name="i-HDFS" />
       </profile>
     </annotationProcessing>
   </component>

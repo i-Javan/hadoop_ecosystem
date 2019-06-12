@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.16.104.204:3306/air
+    username: root
+    password: bigdata

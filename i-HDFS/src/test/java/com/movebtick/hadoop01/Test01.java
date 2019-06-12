@@ -1,8 +1,8 @@
 package com.movebtick.hadoop01;
 
-import com.gpdi.hadoop.HadoopAppcaliction;
-import com.gpdi.hadoop.module.reduce.mapper.WordCountMap;
-import com.gpdi.hadoop.module.reduce.reducer.WordCountReduce;
+import com.movebrick.hadoop01.Hadoop01Appcaliction;
+import com.movebrick.hadoop01.module.reduce.mapper.WordCountMap;
+import com.movebrick.hadoop01.module.reduce.reducer.WordCountReduce;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
 import org.apache.hadoop.io.IntWritable;
@@ -30,13 +30,13 @@ import java.util.Map;
 
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = HadoopAppcaliction.class)
+@SpringBootTest(classes = Hadoop01Appcaliction.class)
 public class Test01 extends Test02 {
 
     //@Value("${hdfs.path}")
-    private String path = "hdfs://172.16.104.204:9000";
+    private String path = "hdfs://172.16.104.203:9000";
     //@Value("${hdfs.username}")
-    private String username = "hadoop";
+    private String username = "root";
 
     private static FileSystem fileSystem;
     private static Configuration configuration;
@@ -118,7 +118,7 @@ public class Test01 extends Test02 {
     public void application() throws Exception {
         System.err.println("---------- Start ------------");
         // 服务器文件
-        Path serverPath = new Path("/input/1500000.txt");
+        Path serverPath = new Path("/input/三国演义.txt");
         // 原始文件
         Path localhostDataPath = new Path("D:\\work space\\git-springboot\\movebrick-hadoop\\movebrick-hadoop01\\src\\main\\resources\\data\\1500000.txt");
         // 目标目录
