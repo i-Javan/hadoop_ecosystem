@@ -9,8 +9,9 @@
         <version>2.1.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <groupId>com.github.i-javan</groupId>
     <modelVersion>4.0.0</modelVersion>
-
+    <version>1.0</version>
     <artifactId>i-JPA</artifactId>
 
     <dependencies>

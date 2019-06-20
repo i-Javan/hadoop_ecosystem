@@ -2,170 +2,195 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba6187f-82cc-4038-9573-0d64a99c434d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-HDFS/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-HDFS/src/test/java/com/movebtick/hadoop01/Hbase_test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Spark/src/main/java/com/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Spark/src/main/java/com/config/SparkContextBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Spark/src/main/java/com/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Spark/src/main/java/com/service/CustomReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Spark/src/main/java/com/service/SparkTestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Spark/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Spark/src/test/java/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Timer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Timer/src/main/java/com/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Timer/src/main/java/com/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Timer/src/main/java/com/task/DynamicScheduleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Timer/src/main/resources/Application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/i-Timer/src/test/java/com/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spark-scala/.idea/libraries/scala_sdk_2_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/hdfsnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_clearspring_analytics_stream_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_ning_compress_lzf_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_twitter_chill_2_11_0_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_twitter_chill_java_0_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_typesafe_sbt_compiler_interface_sources_0_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_typesafe_sbt_incremental_compiler_0_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_typesafe_sbt_sbt_interface_0_13_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__com_typesafe_zinc_zinc_0_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__commons_net_commons_net_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__io_netty_netty_3_8_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__net_alchim31_maven_scala_maven_plugin_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__net_razorvine_pyrolite_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_avro_avro_ipc_tests_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_commons_commons_crypto_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_commons_commons_exec_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_commons_commons_math3_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_commons_commons_math_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_curator_curator_client_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_curator_curator_framework_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_ivy_ivy_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_doxia_doxia_logging_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_doxia_doxia_sink_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_archiver_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_core_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_model_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_profile_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_project_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_settings_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_reporting_maven_reporting_api_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_shared_maven_dependency_tree_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_shared_maven_invoker_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_xbean_xbean_asm5_shaded_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_codehaus_plexus_plexus_archiver_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_codehaus_plexus_plexus_io_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_scala_lang_scalap_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_scalatest_scalatest_2_11_2_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_sonatype_aether_aether_api_1_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_sonatype_aether_aether_impl_1_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_sonatype_aether_aether_spi_1_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_sonatype_aether_aether_util_1_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_sonatype_sisu_sisu_guava_0_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_no_aop_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_spark_project_spark_unused_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/i-Scala.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/pom.xml1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/src/main/java/com/core/WordConntLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/src/main/scala/com/Day01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/i-Scala/src/test/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HBase/i-HBase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/HadoopAppcaliction.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/Hadoop01Appcaliction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/hdfs/config/HdfsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/hdfs/config/HdfsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/hdfs/controller/HdfsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/hdfs/controller/HdfsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/hdfs/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/hdfs/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/hdfs/service/HdfsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/hdfs/service/HdfsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/mapreduce/GroupSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/mapreduce/GroupSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/mapreduce/SearchStar.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/mapreduce/SearchStar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/bean/GroupOrderComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/bean/GroupOrderComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/bean/StaffProvincePartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/bean/StaffProvincePartitioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/bean/WeiboInputFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/bean/WeiboInputFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/bean/WeiboRecordReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/bean/WeiboRecordReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/controller/MapReduceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/controller/MapReduceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/CounterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/CounterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/FriendsMapper1.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/FriendsMapper1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/FriendsMapper2.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/FriendsMapper2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/GroupOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/GroupOrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/JoinMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/JoinMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/PolluteCountMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/PolluteCountMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/SortMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/SortMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/StaffMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/StaffMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/WeatherMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeatherMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/WeiboMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WeiboMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/WordCountMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/model/GroupOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/model/GroupOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/model/GroupSortModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/model/GroupSortModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/model/OrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/model/OrderInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/model/SortModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/model/SortModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/model/StaffModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/model/StaffModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/model/Weibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/model/Weibo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/reducer/FriendsReduce1.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/FriendsReduce1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/reducer/FriendsReduce2.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/FriendsReduce2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/reducer/GroupOrderReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/GroupOrderReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/reducer/JoinReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/JoinReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/reducer/SortReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/SortReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/reducer/StaffReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/StaffReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/reducer/StoryCombiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/StoryCombiner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/reducer/WeatherReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WeatherReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/reducer/WeiboReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WeiboReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/reducer/WordCountReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/WordCountReduce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/service/MapReduceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/service/MapReduceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/util/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/util/HdfsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/util/HdfsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/util/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/util/ReduceJobsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/util/ReduceJobsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/util/SortUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/util/SortUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/vo/ApiMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/vo/ApiMsgEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/vo/BaseReturnVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/vo/BaseReturnVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/src/test/java/com/movebtick/hadoop01/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/test/java/com/movebtick/hadoop01/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/HadoopAppcaliction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/hdfs/config/HdfsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/hdfs/controller/HdfsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/hdfs/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/hdfs/service/HdfsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/mapreduce/GroupSort$GroupSortComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/mapreduce/GroupSort$GroupSortMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/mapreduce/GroupSort$GroupSortPartitioner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/mapreduce/GroupSort$GroupSortReduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/mapreduce/GroupSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/mapreduce/SearchStar$SearchStarCombiner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/mapreduce/SearchStar$SearchStarMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/mapreduce/SearchStar$SearchStarPartitioner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/mapreduce/SearchStar$SearchStarReduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/mapreduce/SearchStar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/bean/GroupOrderComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/bean/StaffProvincePartitioner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/bean/WeiboInputFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/bean/WeiboRecordReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/controller/MapReduceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/CounterMapper$MyCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/CounterMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/FriendsMapper1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/FriendsMapper2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/GroupOrderMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/JoinMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/PolluteCountMap$IntSumReducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/PolluteCountMap$TokenizerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/PolluteCountMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/SortMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/StaffMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/WeatherMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/WeiboMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/WordCount$IntSumReducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/WordCount$TokenizerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/WordCountMap$IntSumReducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/WordCountMap$TokenizerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/mapper/WordCountMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/model/GroupOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/model/GroupSortModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/model/OrderInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/model/SortModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/model/StaffModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/model/Weibo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/reducer/FriendsReduce1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/reducer/FriendsReduce2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/reducer/GroupOrderReduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/reducer/JoinReduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/reducer/SortReduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/reducer/StaffReduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/reducer/StoryCombiner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/reducer/WeatherReduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/reducer/WeiboReduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/reducer/WordCountReduce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/reduce/service/MapReduceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/util/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/util/HdfsUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/util/JsonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/util/ReduceJobsUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/util/SortUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/util/SortUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/vo/ApiMsgEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/com/gpdi/hadoop/module/vo/BaseReturnVO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/1500000.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/friends.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/groupOrder.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/groupSort.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/groupSort1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/groupSort2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/order.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/product.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/sort.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/staff.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/user.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/weibo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/weibo2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/三国演义.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/三国演义无换行版.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/斗破苍穹.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/data/红楼梦.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/test-classes/com/movebtick/hadoop01/Test01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/test-classes/com/movebtick/hadoop01/Test02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-HDFS/target/test-classes/com/movebtick/hadoop01/Test03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-JPA/i-JPA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-Scheduling/i-Scheduling.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-Scheduling/src/main/java/com/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-Scheduling/src/main/java/com/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-Scheduling/src/main/java/com/task/LogTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-Scheduling/src/main/java/com/task/LogTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i-Spark/i-Spark.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/i-HDFS/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/PolluteCountMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/PolluteCountMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i-JPA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/i-JPA/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i-Scheduling/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/i-Scheduling/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i-Spark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/i-Spark/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i-Spark/src/main/java/com/service/SparkTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/i-Spark/src/main/java/com/service/SparkTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i-Timer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/i-Timer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sys.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log4j-application.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -176,11 +201,17 @@
     <ignored path="$PROJECT_DIR$/i-JPA/target/" />
     <ignored path="$PROJECT_DIR$/i-Spark/target/" />
     <ignored path="$PROJECT_DIR$/i-Timer/target/" />
+    <ignored path="$PROJECT_DIR$/i-Scala/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -202,89 +233,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/Hadoop01Appcaliction.java">
+        <entry file="file://$PROJECT_DIR$/i-Scala/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1653">
+              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/i-Scala/pom.xml1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="90" column="12" selection-start-line="52" selection-start-column="3" selection-end-line="90" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/i-Scalaa/Day01.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/i-Scala/src/main/scala/com/Day01.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/controller/MapReduceController.java">
+        <entry file="file://$PROJECT_DIR$/i-Scala/src/main/java/com/core/WordConntLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="228">
+              <caret line="23" column="110" selection-start-line="23" selection-start-column="110" selection-end-line="23" selection-end-column="110" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/service/MapReduceService.java">
+        <entry file="file://$PROJECT_DIR$/i-Scala/src/test/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/util/ReduceJobsUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/PolluteCountMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/CounterMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/FriendsReduce1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/StaffReduce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="209">
+              <caret line="29" column="14" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="14" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/log4j-application.log">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -294,6 +305,7 @@
       <list>
         <option value="Enum" />
         <option value="FxmlFile" />
+        <option value="Scala Class" />
         <option value="Class" />
       </list>
     </option>
@@ -315,10 +327,13 @@
       <find>朝阳</find>
       <find>&quot;,&quot;),</find>
       <find>h</find>
-      <find>lom</find>
       <find>Slf4j</find>
       <find>logger</find>
       <find>getCron</find>
+      <find>scala</find>
+      <find>hadoop-client</find>
+      <find>lom</find>
+      <find>maven-scala-plugin</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -335,14 +350,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/HadoopAppcaliction.java" />
-        <option value="$PROJECT_DIR$/i-HDFS/src/main/java/com/i-Javan/hadoop/HadoopAppcaliction.java" />
-        <option value="$PROJECT_DIR$/i-HDFS/src/main/java/com/i_Javan/hadoop/HadoopAppcaliction.java" />
-        <option value="$PROJECT_DIR$/i-HDFS/src/main/java/com/i_Javan/hadoop/module/reduce/mapper/WeatherMap.java" />
         <option value="$PROJECT_DIR$/i-HBase/pom.xml" />
         <option value="$PROJECT_DIR$/i-HBase/src/main/java/com/HBaseConnection.java" />
         <option value="$PROJECT_DIR$/i-Scheduling/src/main/java/com/http/HttpCkuebt.java" />
-        <option value="$PROJECT_DIR$/i-JPA/pom.xml" />
         <option value="$PROJECT_DIR$/i-JPA/src/main/java/com/movebrick/jpa/module/dao/UserRepository.java" />
         <option value="$PROJECT_DIR$/i-JPA/src/main/java/com/movebrick/jpa/module/entity/QueryResult.java" />
         <option value="$PROJECT_DIR$/i-JPA/src/main/java/com/movebrick/jpa/module/dao/EntityDao.java" />
@@ -363,12 +373,9 @@
         <option value="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/PolluteCountMap.java" />
         <option value="$PROJECT_DIR$/i-Scheduling/src/main/java/com/http/HttpClient.java" />
         <option value="$PROJECT_DIR$/i-Scheduling/src/main/java/com/enums/CityEnum.java" />
-        <option value="$PROJECT_DIR$/i-Scheduling/pom.xml" />
         <option value="$PROJECT_DIR$/i-Spark/src/main/java/com/Application.java" />
-        <option value="$PROJECT_DIR$/i-Spark/pom.xml" />
         <option value="$PROJECT_DIR$/i-Scheduling/src/main/java/com/task/LogTask.java" />
         <option value="$PROJECT_DIR$/i-Spark/src/main/java/com/config/SparkContextBean.java" />
-        <option value="$PROJECT_DIR$/i-Spark/src/main/java/com/service/SparkTestService.java" />
         <option value="$PROJECT_DIR$/i-Spark/src/main/java/com/service/CustomReceiver.java" />
         <option value="$PROJECT_DIR$/i-Spark/src/main/java/com/controller/DemoController.java" />
         <option value="$PROJECT_DIR$/i-Spark/src/test/java/test.txt" />
@@ -376,26 +383,48 @@
         <option value="$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/util/ReduceJobsUtils.java" />
         <option value="$PROJECT_DIR$/i-Timer/src/main/resources/Application.yml" />
         <option value="$PROJECT_DIR$/i-Timer/src/main/java/com/service/TaskService.java" />
-        <option value="$PROJECT_DIR$/i-HDFS/pom.xml" />
-        <option value="$PROJECT_DIR$/i-Timer/pom.xml" />
         <option value="$PROJECT_DIR$/i-Timer/src/main/java/com/Application.java" />
         <option value="$PROJECT_DIR$/i-Timer/src/test/java/com/Test01.java" />
         <option value="$PROJECT_DIR$/i-Scheduling/src/main/java/com/Application.java" />
         <option value="$PROJECT_DIR$/i-Timer/src/main/java/com/task/DynamicScheduleTask.java" />
+        <option value="$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/PolluteCountMap.java" />
+        <option value="$PROJECT_DIR$/i-Scalaa/src/Day01.scala" />
+        <option value="$PROJECT_DIR$/i-Scala/src/main/scala/Day01.scala" />
+        <option value="$PROJECT_DIR$/i-Spark/src/main/java/com/service/SparkTestService.java" />
+        <option value="$PROJECT_DIR$/i-Scala/src/main/scala/com/Logger.scala" />
+        <option value="$PROJECT_DIR$/i-HDFS/pom.xml" />
+        <option value="$PROJECT_DIR$/i-JPA/pom.xml" />
+        <option value="$PROJECT_DIR$/i-Scheduling/pom.xml" />
+        <option value="$PROJECT_DIR$/i-Spark/pom.xml" />
+        <option value="$PROJECT_DIR$/i-Timer/pom.xml" />
+        <option value="$PROJECT_DIR$/i-Scala/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/i-Scala/src/main/java/com/core/WordConntLocal.java" />
+        <option value="$PROJECT_DIR$/i-Scala/pom.xml" />
+        <option value="$PROJECT_DIR$/i-Scala/src/main/scala/com/Day01.scala" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="i-Scala" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="i-Scala" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1911" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-30" />
+    <option name="y" value="115" />
+    <option name="width" value="1555" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -403,7 +432,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -411,132 +439,41 @@
               <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="i-HDFS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="i-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="i-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="i-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="i-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="i-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="i-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="i-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="i-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="i-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop01" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="reduce" type="462c0819:PsiDirectoryNode" />
-              <item name="reducer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_ecosystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_ecosystem" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/i-Scala" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.1525" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="project.structure.side.proportion" value="0.3587082" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.task" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work space\GPDI\atmosphere_data_analysis\trunk\开发环境\12Code\hadoop_ecosystem\i-Scala" />
+      <recent name="D:\work space\hadoop_ecosystem\i-Spark\src\main\resources" />
+      <recent name="D:\work space\hadoop_ecosystem\i-JPA\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gpdi.hadoop.module.reduce.mapper" />
       <recent name="com.entity" />
       <recent name="com.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work space\hadoop_ecosystem\i-Spark\src\main\resources" />
-      <recent name="D:\work space\hadoop_ecosystem\i-JPA\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work space\GPDI\atmosphere_data_analysis\trunk\开发环境\12Code\hadoop_ecosystem\i-Scala\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -551,10 +488,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hadoop01Appcaliction">
-    <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Application" />
-      <module name="i-Spark" />
+  <component name="RunManager" selected="Application.WordConntLocal">
+    <configuration name="Day01 (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.Day01" />
+      <module name="i-Scala" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.*" />
@@ -565,28 +502,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Application" />
-      <module name="i-Timer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Application" />
-      <module name="i-Scheduling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Day01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Day01" />
+      <module name="i-Scalaa" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -597,6 +515,27 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.movebrick.hadoop01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkWC" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.Day01" />
+      <module name="i-Scala" />
+      <option name="PROGRAM_PARAMETERS" value="hdfs://172.16.104.203:9000/spark/air.txt hdfs://bigdata3:9000/output/spark/air.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordConntLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.core.WordConntLocal" />
+      <module name="i-Scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -621,24 +560,25 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Application" />
-      <item itemvalue="Application.Application (1)" />
-      <item itemvalue="Application.Application (2)" />
+      <item itemvalue="Application.SparkWC" />
       <item itemvalue="Application.Hadoop01Appcaliction" />
+      <item itemvalue="Application.Day01" />
+      <item itemvalue="Application.Day01 (1)" />
+      <item itemvalue="Application.WordConntLocal" />
       <item itemvalue="JUnit.Test01.test01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordConntLocal" />
+        <item itemvalue="Application.Day01 (1)" />
+        <item itemvalue="Application.Day01" />
         <item itemvalue="Application.Hadoop01Appcaliction" />
         <item itemvalue="JUnit.Test01.test01" />
-        <item itemvalue="Application.Application (2)" />
-        <item itemvalue="Application.Application (1)" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\MMJ\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -656,7 +596,27 @@
       <workItem from="1560149418325" duration="4797000" />
       <workItem from="1560214546719" duration="14050000" />
       <workItem from="1560299734969" duration="793000" />
-      <workItem from="1560301015003" duration="372000" />
+      <workItem from="1560301015003" duration="4297000" />
+      <workItem from="1560329868987" duration="663000" />
+      <workItem from="1560387392108" duration="453000" />
+      <workItem from="1560387981289" duration="5277000" />
+      <workItem from="1560393641456" duration="8767000" />
+      <workItem from="1560412742392" duration="258000" />
+      <workItem from="1560413143210" duration="1345000" />
+      <workItem from="1560414781736" duration="1194000" />
+      <workItem from="1560416192960" duration="546000" />
+      <workItem from="1560417255845" duration="1485000" />
+      <workItem from="1560472228671" duration="828000" />
+      <workItem from="1560474384324" duration="83000" />
+      <workItem from="1560474553576" duration="719000" />
+      <workItem from="1560475531854" duration="10367000" />
+      <workItem from="1560499377633" duration="1868000" />
+      <workItem from="1560504264321" duration="1406000" />
+      <workItem from="1560558786535" duration="1352000" />
+      <workItem from="1560575848466" duration="230000" />
+      <workItem from="1560576192861" duration="3000" />
+      <workItem from="1560583789848" duration="1036000" />
+      <workItem from="1560585479290" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="add by javan 20190528添加 HDFS操作">
       <created>1559032127345</created>
@@ -693,7 +653,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560223851377</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add by javan 20190612 更新数据">
+      <created>1560301489266</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560301489266</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -708,7 +675,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76489000" />
+    <option name="totallyTimeSpent" value="118324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -720,10 +687,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28217158" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18900804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Hadoop FileSystem" order="2" />
       <window_info id="Designer" order="3" />
@@ -731,27 +698,29 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.41076487" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.3711048" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731904" visible="true" weight="0.46033993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52549577" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283859" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32294616" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3283859" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2181303" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.7393768" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21706864" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50268096" side_tool="true" weight="0.31728044" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.26912183" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3283859" />
       <window_info anchor="bottom" id="Ant Build" order="15" weight="0.24893919" />
+      <window_info anchor="bottom" id="SVN Repositories" order="16" weight="0.9257885" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.34852546" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.16085792" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="CDI" order="7" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -760,167 +729,21 @@
     <MESSAGE value="add by javan 20190610添加 添加城市枚举" />
     <MESSAGE value="add by javan 20190610 删除 城市枚举" />
     <MESSAGE value="add by javan 20190610 添加环保信息数据获取接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190610 添加环保信息数据获取接口" />
+    <MESSAGE value="add by javan 20190612 更新数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="add by javan 20190612 更新数据" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/WeiboMapper.java" />
-    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/WordCount.java" />
-    <entry file="file://$PROJECT_DIR$/i-Scheduling/src/main/java/com/dao/EntityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="168" column="21" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#60#1" expanded="true" />
-            <element signature="e#0#55#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Scheduling/src/main/java/com/enums/CityEnum.java" />
-    <entry file="file://$PROJECT_DIR$/i-Scheduling/src/main/java/com/http/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Scheduling/src/main/java/com/entity/AirQualityFacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Scheduling/src/main/java/com/http/HttpClientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Scheduling/src/main/java/com/task/GoldTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="53" column="63" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Scheduling/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="42" column="21" selection-start-line="37" selection-start-column="8" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Scheduling/src/main/java/com/task/LogTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Scheduling/src/main/resources/logback-boot.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/resources/data/1500000.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-end-line="77469" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Spark/src/test/java/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="77469" selection-start-line="77469" selection-end-line="77469" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/java/com/config/SparkContextBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/HadoopAppcaliction.java" />
-    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/hdfs/config/HdfsConfig.java" />
-    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/hdfs/controller/HdfsController.java" />
-    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/mapreduce/GroupSort.java" />
-    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/controller/MapReduceController.java" />
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/service/MapReduceService.java" />
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/reduce/mapper/PolluteCountMap.java" />
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/gpdi/hadoop/module/util/ReduceJobsUtils.java" />
-    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/java/com/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/i-Timer/src/main/resources/Application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Spark/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="77" column="21" selection-start-line="72" selection-start-column="8" selection-end-line="77" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/java/com/service/SparkTestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/i-Timer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/test/java/com/movebtick/hadoop01/Test01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -980,45 +796,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/i-HDFS/logs/log4j-application.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/i-HDFS/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/java/com/service/CustomReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/java/com/controller/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/i-Timer/src/main/java/com/Application.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1032,12 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/sys.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log4j-application.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/Hadoop01Appcaliction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1048,28 +824,61 @@
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/controller/MapReduceController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.8.5/hadoop-mapreduce-client-core-2.8.5.jar!/org/apache/hadoop/mapreduce/Reducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.8.5/hadoop-common-2.8.5.jar!/org/apache/hadoop/io/IntWritable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.scala" />
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/service/MapReduceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="608">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/util/ReduceJobsUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        <state relative-caret-position="855">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/PolluteCountMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="589">
+          <caret line="38" column="71" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/GroupOrderReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/JoinReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="30" column="79" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="79" />
         </state>
       </provider>
     </entry>
@@ -1082,22 +891,187 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/FriendsReduce1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/StaffReduce.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/mapper/WordCountMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
+        <state relative-caret-position="190">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Scalaa/src/Day01.scala" />
+    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/java/com/movebrick/hadoop01/module/reduce/reducer/StaffReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Scala/src/main/scala/Day01.scala" />
+    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/java/com/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/java/com/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/java/com/config/SparkContextBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/java/com/service/CustomReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Spark/src/main/java/com/service/SparkTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-HDFS/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Scala/src/main/scala/com/Logger.scala" />
+    <entry file="file://$PROJECT_DIR$/i-HBase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-JPA/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Scheduling/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Spark/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-HDFS/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Timer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/sys.log" />
+    <entry file="file://$PROJECT_DIR$/logs/log4j-application.log" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-surefire-plugin/2.19/maven-surefire-plugin-2.19.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Scala/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Scala/pom.xml1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="90" column="12" selection-start-line="52" selection-start-column="3" selection-end-line="90" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/i-Scalaa/Day01.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Scala/src/main/scala/com/Day01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Scala/src/main/java/com/core/WordConntLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" column="110" selection-start-line="23" selection-start-column="110" selection-end-line="23" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/i-Scala/src/test/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="29" column="14" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1151,11 +1125,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>i-Timer</last-edited>
+          <last-edited>i-Scala</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3587082" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1176,10 +1150,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>scala-sdk-2.10.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3587082" />
               </list>
             </option>
           </splitter-proportions>

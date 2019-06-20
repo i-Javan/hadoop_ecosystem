@@ -46,6 +46,7 @@ public class PolluteCountMap {
                 sum += val.get();
             }
             result.set(sum);
+            System.err.println("Reducer:"+sum+","+key);
             context.write(key, result);
         }
     }

@@ -46,27 +46,27 @@ public class SparkTestService {
 
         JavaRDD<String> words = lines.flatMap(str -> Arrays.asList(SPACE.split(str)).iterator());
 
-        JavaPairRDD<String, Integer> ones = words.mapToPair(str -> new Tuple2<String, Integer>(str, 1));
+//        JavaPairRDD<String, Integer> ones = words.mapToPair(str -> new Tuple2<String, Integer>(str, 1));
+//
+//        JavaPairRDD<String, Integer> counts = ones.reduceByKey((Integer i1, Integer i2) -> (i1 + i2));
+//
+//        JavaPairRDD<Integer, String> temp = counts.mapToPair(tuple -> new Tuple2<Integer, String>(tuple._2, tuple._1));
+//
+//        JavaPairRDD<String, Integer> sorted = temp.sortByKey(false).mapToPair(tuple -> new Tuple2<String, Integer>(tuple._2, tuple._1));
 
-        JavaPairRDD<String, Integer> counts = ones.reduceByKey((Integer i1, Integer i2) -> (i1 + i2));
-
-        JavaPairRDD<Integer, String> temp = counts.mapToPair(tuple -> new Tuple2<Integer, String>(tuple._2, tuple._1));
-
-        JavaPairRDD<String, Integer> sorted = temp.sortByKey(false).mapToPair(tuple -> new Tuple2<String, Integer>(tuple._2, tuple._1));
-
-        System.out.println();
-        System.out.println("-------------------------------------------------------");
-        System.out.println(sorted.count());
+//        System.out.println();
+//        System.out.println("-------------------------------------------------------");
+//        System.out.println(sorted.count());
 
         //List<Tuple2<String, Integer>> output = sorted.collect();
 
         //List<Tuple2<String, Integer>> output = sorted.take(10);
 
-        List<Tuple2<String, Integer>> output = sorted.top(10);
+//        List<Tuple2<String, Integer>> output = sorted.top(10);
 
-        for (Tuple2<String, Integer> tuple : output) {
-            result.put(tuple._1(), tuple._2());
-        }
+//        for (Tuple2<String, Integer> tuple : output) {
+//            result.put(tuple._1(), tuple._2());
+//        }
 
         return result;
     }

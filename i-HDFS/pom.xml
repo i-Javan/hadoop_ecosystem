@@ -7,8 +7,9 @@
 <!--        <groupId>com.github.i-javan</groupId>-->
 <!--        <version>1.0</version>-->
 <!--    </parent>-->
+    <groupId>com.github.i-javan</groupId>
     <modelVersion>4.0.0</modelVersion>
-
+    <version>1.0</version>
     <artifactId>i-HDFS</artifactId>
 
 
