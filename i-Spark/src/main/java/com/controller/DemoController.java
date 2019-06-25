@@ -13,7 +13,7 @@ public class DemoController {
     @Autowired
     private SparkTestService sparkTestService;
 
-    @RequestMapping("/demo/top10")
+    @RequestMapping("/demo/top100")
     public Map<String, Object> calculateTopTen() {
         return sparkTestService.calculateTopTen();
     }

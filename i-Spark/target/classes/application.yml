@@ -1,0 +1,7 @@
+server:
+  port: 8054
+
+spark:
+  spark-home: .
+  app-name: sparkTest
+  master: 172.16.104.203:46426

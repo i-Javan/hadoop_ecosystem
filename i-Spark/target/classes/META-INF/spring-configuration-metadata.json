@@ -1,0 +1,30 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.config.SparkContextBean",
+      "name": "spark",
+      "type": "com.config.SparkContextBean"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.config.SparkContextBean",
+      "defaultValue": "sparkTest",
+      "name": "spark.app-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.config.SparkContextBean",
+      "defaultValue": "local",
+      "name": "spark.master",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.config.SparkContextBean",
+      "defaultValue": ".",
+      "name": "spark.spark-home",
+      "type": "java.lang.String"
+    }
+  ]
+}
